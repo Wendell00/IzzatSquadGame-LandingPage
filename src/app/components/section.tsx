@@ -1,4 +1,7 @@
+"use client";
+
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { createContext } from 'react';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -13,7 +16,7 @@ export default function Section() {
         <>
             <div className="h-screen w-screen max-w-[1920px] max-h-[1080px]"></div>
             <div className="w-screen h-screen main relative z-40">
-            {/* <Swiper
+            <Swiper
                 // install Swiper modules
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                 spaceBetween={50}
@@ -29,7 +32,7 @@ export default function Section() {
                 <SwiperSlide>Slide 3</SwiperSlide>
                 <SwiperSlide>Slide 4</SwiperSlide>
 
-            </Swiper> */}
+            </Swiper>
 
             </div>
         </>
