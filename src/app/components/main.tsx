@@ -16,7 +16,7 @@ export default function Main() {
                             </div>
                         </div>
                     </div>
-                    <img src="./soldier.png" className="opacity-10 absolute right-[-220px] z-10"/>
+                    <img src="./soldier.png" className="opacity-0 absolute right-[-220px] z-10"/>
                 </div>
             </div>
             <div className="main w-screen h-screen fixed z-20 opacity-[70%] flex">
