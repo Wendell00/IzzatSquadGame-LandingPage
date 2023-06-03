@@ -15,22 +15,34 @@ export default function Section() {
     return (
         <>
             <div className="h-screen w-screen max-w-[1920px] max-h-[1080px]"></div>
-            <div className="w-screen h-screen main relative z-40">
+            <div className="w-screen h-screen main relative z-40 p-20">
             <Swiper
                 // install Swiper modules
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                 spaceBetween={50}
-                slidesPerView={3}
+                slidesPerView={1}
                 navigation
                 pagination={{ clickable: true }}
                 scrollbar={{ draggable: true }}
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change')}
+                className='w-[1005] h-[100%] bg-white'
                 >
-                <SwiperSlide>Slide 1</SwiperSlide>
-                <SwiperSlide>Slide 2</SwiperSlide>
-                <SwiperSlide>Slide 3</SwiperSlide>
-                <SwiperSlide>Slide 4</SwiperSlide>
+                <SwiperSlide>
+                    <div className="w-100 h-100"></div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="w-100 h-100"></div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="w-100 h-100"></div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="w-100 h-100"></div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="w-100 h-100"></div>
+                </SwiperSlide>
 
             </Swiper>
 
