@@ -24,7 +24,7 @@ export default function Section() {
                 navigation
                 pagination={{ clickable: true }}
                 scrollbar={{ draggable: true }}
-                className='w-[1005] h-[100%] bg-white'
+                className='w-[1005] h-[100%]'
                 >
                 <SwiperSlide>
                     <div className="w-100 h-100"></div>
